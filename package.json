@@ -1,0 +1,20 @@
+{
+  "name": "stockflow-django-erp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack enterprise inventory management system with multi-warehouse SKU tracking, supplier purchase orders, and barcode audit logging.",
+  "author": "Wajid Raza <wajidrazapk@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node dist/index.js",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "clsx": "^2.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
